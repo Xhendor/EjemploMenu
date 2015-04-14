@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+
+    <!--Item del menu -->
+    <item
+        android:id="@+id/mostrar_menu"
+        android:title="Mostrar Menu"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+    />
+
+    <item
+        android:id="@+id/mostrar_informacion"
+        android:title="Mostrar Informacion"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+     />
+
+
+
+
+</menu>
