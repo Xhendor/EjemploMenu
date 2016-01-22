@@ -7,8 +7,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import java.util.HashMap;
-
 
 public class ActivityA extends ActionBarActivity {
 
@@ -21,21 +19,18 @@ public class ActivityA extends ActionBarActivity {
 
         Descripcion descripcion=(Descripcion)intent.getExtras().getSerializable("menu");
 
-        TextView miTextoMalvado=(TextView)findViewById(R.id.textomalvado);
+        TextView miTextoMalvado=(TextView)findViewById(R.id.textoVista);
 
        switch (descripcion.getIdentificador()){
            case 1:
-               setTitle("Comida Corrida #"+descripcion.getIdentificador());
+               setTitle("Comida Corrida #" + descripcion.getIdentificador());
 
                miTextoMalvado.setText(
                        descripcion.getDescripcion().get(new Integer(1))
                        +"\n"+
                        descripcion.getDescripcion().get(new Integer(2))
                        +"\n"+
-                       descripcion.getDescripcion().get(new Integer(3))
-                       +"\n"+
-                       descripcion.getDescripcion().get(new Integer(4)));
-
+                       descripcion.getDescripcion().get(new Integer(3)));
 
                break;
            case 2:

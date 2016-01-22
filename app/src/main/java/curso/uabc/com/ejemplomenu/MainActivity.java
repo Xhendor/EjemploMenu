@@ -86,12 +86,12 @@ public class MainActivity extends ActionBarActivity implements
         }else
         if (id == R.id.mostrar_informacion) {
 
-           /* Toast toast=Toast.makeText(
+            Toast toast=Toast.makeText(
                     this,
                     "Mostrar Información",
                     Toast.LENGTH_LONG
             );
-            toast.show();*/
+            toast.show();
 
 
             return true;
@@ -149,7 +149,7 @@ public class MainActivity extends ActionBarActivity implements
             RadioButton radio=(RadioButton)compoundButton;
             if(radio.isChecked()){
 
-                mostrarMensaje("Toy seleccionado");
+                mostrarMensaje("Estoy seleccionado");
 
             }
         }else if(compoundButton instanceof CheckBox){
