@@ -1,7 +1,7 @@
 package curso.uabc.com.ejemplomenu;
 
 import android.content.Intent;
-import androidx.appcompat.app.ActionBarActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -15,7 +15,7 @@ import android.widget.Toast;
 import android.widget.ToggleButton;
 
 
-public class MainActivity extends ActionBarActivity implements
+public class MainActivity extends AppCompatActivity implements
         View.OnClickListener,CompoundButton.OnCheckedChangeListener {
 
     @Override

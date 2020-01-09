@@ -1,14 +1,14 @@
 package curso.uabc.com.ejemplomenu;
 
 import android.content.Intent;
-import androidx.appcompat.app.ActionBarActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
 
-public class ActivityA extends ActionBarActivity {
+public class ActivityA extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
